@@ -7,7 +7,7 @@
   <Geometries Checked="True" Expanded="True">
     <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g01.hdf">
       <Layer Type="RASRiver" Checked="True" />
-      <Layer Type="RASXS" Checked="True" Expanded="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+      <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
@@ -48,8 +48,8 @@
     </Layer>
   </Geometries>
   <EventConditions />
-  <Results>
-    <Layer Name="steady_2y" Type="RASResults" Filename=".\pau.p01.hdf">
+  <Results Expanded="True">
+    <Layer Name="steady_2y" Type="RASResults" Expanded="True" Filename=".\pau.p01.hdf">
       <Layer Name="Event Conditions" Type="RASEventConditions" Filename=".\pau.p01.hdf">
         <Layer Name="Wind Layer" Type="ResultWindLayer" Filename=".\pau.p01.hdf">
           <ResampleMethod>near</ResampleMethod>
@@ -109,7 +109,7 @@
     </Layer>
   </Results>
   <MapLayers Checked="True" Expanded="True">
-    <Layer Name="Google Satellite" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
+    <Layer Name="Google Satellite" Type="WMSLayer" Checked="True" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
       <ResampleMethod>near</ResampleMethod>
     </Layer>
   </MapLayers>
@@ -123,10 +123,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>451017.510871269</MaxX>
-    <MinX>447266.338109913</MinX>
-    <MaxY>6215129.1231026</MaxY>
-    <MinY>6211633.58581832</MinY>
+    <MaxX>449704.75008806</MaxX>
+    <MinX>449641.369149007</MinX>
+    <MaxY>6211735.13557577</MaxY>
+    <MinY>6211676.07393034</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>

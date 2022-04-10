@@ -48,8 +48,8 @@
     </Layer>
   </Geometries>
   <EventConditions />
-  <Results>
-    <Layer Name="steady_2y" Type="RASResults" Filename=".\pau.p01.hdf">
+  <Results Expanded="True">
+    <Layer Name="steady_2y" Type="RASResults" Expanded="True" Filename=".\pau.p01.hdf">
       <Layer Name="Event Conditions" Type="RASEventConditions" Filename=".\pau.p01.hdf">
         <Layer Name="Wind Layer" Type="ResultWindLayer" Filename=".\pau.p01.hdf">
           <ResampleMethod>near</ResampleMethod>
@@ -109,7 +109,7 @@
     </Layer>
   </Results>
   <MapLayers Checked="True" Expanded="True">
-    <Layer Name="Google Satellite" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
+    <Layer Name="Google Satellite" Type="WMSLayer" Checked="True" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
       <ResampleMethod>near</ResampleMethod>
     </Layer>
   </MapLayers>
@@ -123,10 +123,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>451017.510871269</MaxX>
-    <MinX>447266.338109913</MinX>
-    <MaxY>6215129.1231026</MaxY>
-    <MinY>6211633.58581832</MinY>
+    <MaxX>450246.552123593</MaxX>
+    <MinX>449265.587323282</MinX>
+    <MaxY>6211885.00812764</MaxY>
+    <MinY>6210970.89426187</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
