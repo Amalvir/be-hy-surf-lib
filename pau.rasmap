@@ -4,11 +4,53 @@
   <Features>
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
   </Features>
-  <Geometries />
+  <Geometries Checked="True" Expanded="True">
+    <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g01.hdf">
+      <Layer Type="RASRiver" Checked="True" />
+      <Layer Type="RASXS" Checked="True" Expanded="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+      <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Lateral Structures" />
+      <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
+      <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Rating Curve Outlets" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Name="Outlet Time Series" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="SA/2D Connections" />
+      <Layer Type="FinalNValueLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="TEMP N-Value Rasterizer" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+      <Layer Name="Final Values" Type="InterpretationRasterizerLayer">
+        <ResampleMethod>near</ResampleMethod>
+        <Surface On="True" />
+      </Layer>
+    </Layer>
+  </Geometries>
   <EventConditions />
   <Results />
-  <MapLayers Expanded="True">
-    <Layer Name="Google Satellite" Type="WMSLayer" Checked="True" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
+  <MapLayers Checked="True" Expanded="True">
+    <Layer Name="Google Satellite" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
       <ResampleMethod>near</ResampleMethod>
     </Layer>
   </MapLayers>
@@ -22,10 +64,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>453789.00012207</MaxX>
-    <MinX>441536.00012207</MinX>
-    <MaxY>6220211.00012206</MaxY>
-    <MinY>6201347.00012206</MinY>
+    <MaxX>451017.510871269</MaxX>
+    <MinX>447266.338109913</MinX>
+    <MaxY>6215129.1231026</MaxY>
+    <MinY>6211633.58581832</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
