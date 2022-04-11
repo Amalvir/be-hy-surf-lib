@@ -5,7 +5,6 @@ SI Units
 Geom File=g01
 Flow File=f01
 Plan File=p01
-Background Map Layer=Google Satellite
 Y Axis Title=Elevation
 X Axis Title(PF)=Main Channel Distance
 X Axis Title(XS)=Station
