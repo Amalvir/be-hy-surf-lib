@@ -1,0 +1,32 @@
+Flow Title=steady_cal
+Program Version=6.00
+Number of Profiles= 1 
+Profile Names=PF 1
+River Rch & RM=Gave,Gavarnie        ,4590    
+      31
+River Rch & RM=Gave,Cauterets       ,4457.12 
+      14
+River Rch & RM=Gave,Pau_amont       ,3874    
+      45
+Boundary for River Rch & Prof#=Gave,Gavarnie        , 1 
+Up Type= 0 
+Dn Type= 0 
+Boundary for River Rch & Prof#=Gave,Cauterets       , 1 
+Up Type= 0 
+Dn Type= 0 
+Boundary for River Rch & Prof#=Gave,Pau_amont       , 1 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.001
+Observed WS=Gave            ,Pau_amont       ,3249    ,61.7,450.38
+Observed WS=Gave            ,Pau_amont       ,1637.00*,50.6,436
+Observed WS=Gave            ,Pau_amont       ,1495.50*,34.5,434
+Observed WS=Gave            ,Pau_amont       ,1427    ,24.4,433.21
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 
