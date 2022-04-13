@@ -5,7 +5,7 @@ HEC-RAS 6.0.0 May 2021
        1
 Initial Conditions Flow Information
        3        Initial Profile
-1183.041       1 565.035       61748.076      21
+1183.041       1 565.035       91748.076      33
 Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
@@ -183,8 +183,8 @@ Time Slicing Parameters
        F
 HYDROGRAPH LOCATIONS
  12 
-       1       5       6      16      18      20      21      53      55      71
-      73      74
+       1       8       9      27      29      32      33      65      67      83
+      85      86
 Rules (number of rule sets, number of lookbacks, number of tables)
        0       0       0
 Extra Commands
