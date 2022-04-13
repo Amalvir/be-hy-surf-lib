@@ -1,10 +1,10 @@
 HEC-RAS 6.0.0 May 2021
 Section - Arrays Sizes
-calage                                                          
+steady_50y                                                      
        3       1       1     228   24198       F
        1       3       0       0
       73      85       2       1       1       0       3       0
-       0       2       4       F       F       0       0       0       0       0       0       0
+       0       2       0       F       F       0       0       0       0       0       0       0
        0       0       F       T       0       0       0       F       0       0       F
        0
        0       0
@@ -17,7 +17,7 @@ Section - Job Control
        1       1       1       F       F       1
 Section - Flow Data
        3       0PF 1
-1094.755       1494.4053       6 1589.16      21
+6109.438       12012.936       68122.374      21
 Section - Flow and Seasonal Roughness Flag (plan)
        F       F
 Section - Junction Information
@@ -37,14 +37,6 @@ Section - Reach Boundaries
        3       0    .001
 Section - Encroachment Data
 Section - Observed Water Surface Data
-      30 202.428       F
-1477.625
-      50  166.01       F
-1430.446
-      52 113.189       F
-1423.885
-      55  80.052       F
-1421.293
 Section - Roughness Change Factors
 Section - Breach Data
 Section - Storage Area Data

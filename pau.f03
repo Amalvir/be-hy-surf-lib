@@ -1,13 +1,13 @@
-Flow Title=steady_2y
+Flow Title=steady_50y
 Program Version=6.00
-Number of Profiles= 4 
-Profile Names=PF 1,PF 2,PF 3,PF 4
+Number of Profiles= 1 
+Profile Names=PF 1
 River Rch & RM=Gave,Gavarnie        ,4590    
-      50      31     173     150
+     173
 River Rch & RM=Gave,Cauterets       ,4457.12 
-      40      14      57      49
+      57
 River Rch & RM=Gave,Pau_amont       ,3874    
-      90      45     230     199
+     230
 Boundary for River Rch & Prof#=Gave,Gavarnie        , 1 
 Up Type= 0 
 Dn Type= 0 
