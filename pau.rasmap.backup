@@ -5,6 +5,7 @@
     <Layer Name="Profile Lines" Type="PolylineFeatureLayer" Filename=".\Features\Profile Lines.shp" />
     <Layer Name="point_calage" Type="PointFeatureLayer" Checked="True" Filename="G:\Documents\BEhydlib\Hydrometrie-20220209\point_calage\point_calage.shp" />
     <Layer Name="route" Type="PolylineFeatureLayer" Checked="True" Filename=".\Features\route.shp" />
+    <Layer Name="amont_seuil" Type="PolygonFeatureLayer" Checked="True" Filename=".\Features\amont_seuil.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
     <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Filename=".\pau.g01.hdf">
@@ -66,6 +67,7 @@
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
       <Layer Type="RASBreakLines" Checked="True" />
+      <Layer Type="MeshRegionLayer" Checked="True" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
@@ -415,10 +417,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>450459.735921135</MaxX>
-    <MinX>449213.363538492</MinX>
-    <MaxY>6211861.39938356</MaxY>
-    <MinY>6211007.08462606</MinY>
+    <MaxX>449585.55337858</MaxX>
+    <MinX>448339.180995937</MinX>
+    <MaxY>6215283.95648956</MaxY>
+    <MinY>6214429.64173207</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
