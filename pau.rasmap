@@ -8,7 +8,7 @@
     <Layer Name="amont_seuil" Type="PolygonFeatureLayer" Checked="True" Filename=".\Features\amont_seuil.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
-    <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Filename=".\pau.g01.hdf">
+    <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g01.hdf">
       <Layer Type="RASRiver" Checked="True" />
       <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
@@ -49,7 +49,7 @@
         <Surface On="True" />
       </Layer>
     </Layer>
-    <Layer Name="geometry2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g02.hdf">
+    <Layer Name="geometry2D" Type="RASGeometry" Expanded="True" Filename=".\pau.g02.hdf">
       <Layer Type="RASRiver">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -62,7 +62,7 @@
       <Layer Type="RASStorageArea">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
-      <Layer Type="RASD2FlowArea" Checked="True" Expanded="True" />
+      <Layer Type="RASD2FlowArea" Checked="True" />
       <Layer Type="MeshPerimeterLayer" Checked="True">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="1" r0c0="Name" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -217,7 +217,7 @@
           <Surface On="True" />
         </Layer>
       </Layer>
-      <Layer Name="Depth" Type="RASResultsMap" Checked="True">
+      <Layer Name="Depth" Type="RASResultsMap">
         <MapParameters MapType="depth" ProfileIndex="0" ProfileName="PF 1" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
@@ -333,7 +333,7 @@
           <Surface On="True" />
         </Layer>
       </Layer>
-      <Layer Name="Depth" Type="RASResultsMap" Checked="True">
+      <Layer Name="Depth" Type="RASResultsMap">
         <MapParameters MapType="depth" ProfileIndex="0" ProfileName="PF 1" />
       </Layer>
       <Layer Name="Velocity" Type="RASResultsMap">
@@ -417,10 +417,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>449585.55337858</MaxX>
-    <MinX>448339.180995937</MinX>
-    <MaxY>6215283.95648956</MaxY>
-    <MinY>6214429.64173207</MinY>
+    <MaxX>449743.486921567</MaxX>
+    <MinX>449580.868506668</MinX>
+    <MaxY>6211764.687323</MaxY>
+    <MinY>6211653.22199079</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
