@@ -1,7 +1,7 @@
 Plan Title=2d_crue2013_vardt
 Program Version=6.00
 Short Identifier=2d_vardt                                                        
-Simulation Date=15APR2022,0000,15APR2022,0100
+Simulation Date=14APR2022,2400,25APR2022,0200
 Geom File=g02
 Flow File=u02
 Subcritical Flow
@@ -151,8 +151,8 @@ UNET D2 Theta Warmup= 1
 UNET D2 Z Tol= 0.003 
 UNET D2 Volume Tol= 0.003 
 UNET D2 Max Iterations= 20 
-UNET D2 Equation= 0 
-UNET D2 TotalICTime=
+UNET D2 Equation= 2 
+UNET D2 TotalICTime=1
 UNET D2 RampUpFraction=0.1
 UNET D2 TimeSlices= 1 
 UNET D2 Turbulence Formulation=None

@@ -25,7 +25,7 @@ Ending Time:     15Apr2022 0100
                 #                                              #
                 #          HEC-RAS 6.0.0 May 2021              #
                 #                                              #
-                #             19APR22 at 18:05:39              #
+                #             22APR22 at 12:43:10              #
                 #                                              #
                 ################################################
                 
@@ -49,22 +49,22 @@ Ending Time:     15Apr2022 0100
            *******    ************      **********      **********     ***********           *****   *************
  
  
-         contour2D                           232.4           324.0           91.64        0.007332        0.002263
+         contour2D           251.0           256.7           324.0           318.3        0.004026        0.001243
 
 
 
                  ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
 
 Total Boundary Flux of Water In            324.0
-Total Boundary Flux of Water Out           91.64
+Total Boundary Flux of Water Out           318.3
 
-Starting Volume                         0.000000
-Ending Volume                              232.4
+Starting Volume                            251.0
+Ending Volume                              256.7
 
 
                              Error   Percent Error
                              *****   *************
-                          0.007332        0.002263
+                          0.004026        0.000700
 
 
 
