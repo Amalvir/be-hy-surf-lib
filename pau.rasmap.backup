@@ -6,16 +6,16 @@
     <Layer Name="point_calage" Type="PointFeatureLayer" Checked="True" Filename="G:\Documents\BEhydlib\Hydrometrie-20220209\point_calage\point_calage.shp" />
     <Layer Name="route" Type="PolylineFeatureLayer" Checked="True" Filename=".\Features\route.shp" />
     <Layer Name="amont_seuil" Type="PolygonFeatureLayer" Checked="True" Filename=".\Features\amont_seuil.shp" />
+    <Layer Name="LitMineur" Type="PolygonFeatureLayer" Filename=".\Features\LitMineur.shp" />
+    <Layer Name="LitMajeur" Type="PolygonFeatureLayer" Filename=".\Features\LitMajeur.shp" />
   </Features>
   <Geometries Checked="True" Expanded="True">
-    <Layer Name="amont_lourdes" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g01.hdf">
+    <Layer Name="amont_lourdes" Type="RASGeometry" Filename=".\pau.g01.hdf">
       <Layer Type="RASRiver" Checked="True" />
       <Layer Type="RASXS" Checked="True" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
       <Layer Type="StructureLayer" UnitsRiverStation="Feet" RiverStationDecimalPlaces="0" />
-      <Layer Name="Bridges/Culverts" Type="BridgesCulvertsLayer" Checked="True" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Culvert Barrels" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Bridges/Culverts" />
-      <Layer Name="Inline Structures" Type="InlineStructureLayer" Checked="True" />
       <Layer Name="Gate Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
       <Layer Name="Gate Openings" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="Inline Structures" />
       <Layer Name="Culvert Groups" Type="VirtualGeometryFeatureLayer" ParentIdentifiers="" />
@@ -51,7 +51,7 @@
         <Surface On="True" />
       </Layer>
     </Layer>
-    <Layer Name="geometry2D" Type="RASGeometry" Expanded="True" Filename=".\pau.g02.hdf">
+    <Layer Name="geometry2D" Type="RASGeometry" Checked="True" Expanded="True" Filename=".\pau.g02.hdf">
       <Layer Type="RASRiver">
         <LabelFeatures Checked="True" PercentPosition="0" rows="1" cols="2" r0c0="River" r0c1="Reach" Position="3" Color="-16777216" FontSize="8.25" />
       </Layer>
@@ -111,6 +111,7 @@
   </Geometries>
   <EventConditions>
     <Layer Name="unsteady_2013" Type="RASEventConditions" Filename=".\pau.u01.hdf" />
+    <Layer Name="2d_unsteady" Type="RASEventConditions" Filename=".\pau.u02.hdf" />
   </EventConditions>
   <Results Checked="True" Expanded="True">
     <Layer Name="steady_2y" Type="RASResults" Expanded="True" Filename=".\pau.p01.hdf">
@@ -405,8 +406,15 @@
     </Layer>
   </Results>
   <MapLayers Checked="True" Expanded="True">
-    <Layer Name="Google Satellite" Type="WMSLayer" Checked="True" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
+    <Layer Name="Google Satellite" Type="WMSLayer" Filename="%LocalAppData%\HEC\Mapping\5.1\XML\Google Satellite.xml">
       <ResampleMethod>near</ResampleMethod>
+    </Layer>
+    <Layer Name="LandCover" Type="LandCoverLayer" Checked="True" Filename=".\Land Classification\LandCover.hdf" SelectedParameterForSurfaceFillLabel="ID">
+      <Symbology>
+        <ColorByteMap Type="System.Int32" Alpha="128" Values="1,2" Colors="-11622693,-16773508" ValuesExcludeLegend="" />
+      </Symbology>
+      <ColorByteMap Type="System.Int32" Alpha="128" Values="1,2" Colors="-11622693,-16773508" ValuesExcludeLegend="" />
+      <Layer Name="Classification Polygons" Type="LandCoverClassificationLayer" Filename=".\Land Classification\LandCover.hdf" />
     </Layer>
   </MapLayers>
   <Terrains Checked="True" Expanded="True">
@@ -419,10 +427,10 @@
     </Layer>
   </Terrains>
   <CurrentView>
-    <MaxX>449575.076557511</MaxX>
-    <MinX>448785.249364648</MinX>
-    <MaxY>6214253.57691254</MaxY>
-    <MinY>6213712.19695569</MinY>
+    <MaxX>451966.904790008</MaxX>
+    <MinX>447704.527091014</MinX>
+    <MaxY>6213209.8101541</MaxY>
+    <MinY>6210288.20163566</MinY>
   </CurrentView>
   <VelocitySettings>
     <Density>1.5</Density>
@@ -454,6 +462,7 @@
       <TerrainDestinationFolder>.\Terrain</TerrainDestinationFolder>
       <TerrainSourceFolder>G:\Documents\BEhydlib\Topo-20220209</TerrainSourceFolder>
       <AddDataFolder>G:\Documents\BEhydlib\Hydrometrie-20220209\point_calage</AddDataFolder>
+      <LandCoverDestinationFolder>.\Land Classification</LandCoverDestinationFolder>
     </Folders>
   </CurrentSettings>
 </RASMapper>

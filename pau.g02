@@ -7607,8 +7607,8 @@ Storage Area 2D Points= 15109
 449663.8651126246211695.45354181449664.3837504416211686.07484127
 449664.9023882596211676.69614074449665.421026077 6211667.3174402
 449665.9396638956211657.93873966
-Storage Area 2D PointsPerimeterTime=14Apr2022 22:08:36
-Storage Area Mannings=0.06
+Storage Area 2D PointsPerimeterTime=15Apr2022 10:50:42
+Storage Area Mannings=0.04
 2D Cell Volume Filter Tolerance=0.003
 2D Cell Minimum Area Fraction=0.01
 2D Face Profile Filter Tolerance=0.003
