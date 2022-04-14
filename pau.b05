@@ -5,7 +5,7 @@ HEC-RAS 6.0.0 May 2021
        1
 Initial Conditions Flow Information
        3        Initial Profile
-1183.041       1 565.035       91748.076      33
+1183.041       1 565.035       61748.076      21
 Flow and Seasonal Roughness Flag (plan)
        F       F
        2       0       0
@@ -24,14 +24,14 @@ Job Control Information
   Instantaneous Profile = 1HOUR
   Hydrograph Interval   = 1HOUR
   Theta Simulation      =       .8
-  Theta Warmup          =        1
+  Theta Warmup          =       .8
   Friction Slope Method =        2
   Maximum Iterations    =       40
   Max Iter WOImprovement=        0
   Number Warmup Steps   =        0
   Abort DZ Tolerance    =    98.43
-  DZ Tolerance          =    .0164
-  DZSA Tolerance        =    .0164
+  DZ Tolerance          =     .164
+  DZSA Tolerance        =     .164
   DQ Tolerance          =  3.1E+38
   Weir Flow Stability   =        2
   Spillway Stability    =        1
@@ -183,8 +183,8 @@ Time Slicing Parameters
        F
 HYDROGRAPH LOCATIONS
  12 
-       1       8       9      27      29      32      33      65      67      83
-      85      86
+       1       5       6      16      18      20      21      53      55      71
+      73      75
 Rules (number of rule sets, number of lookbacks, number of tables)
        0       0       0
 Extra Commands
